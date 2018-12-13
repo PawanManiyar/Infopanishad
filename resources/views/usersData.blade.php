@@ -51,11 +51,11 @@
         $(document).ready( function () {
             
              $('#myTable').DataTable({
-                 "columns":[
-                     {"searchable":true},
-                     null,
-                     null,
-                     null,
+                "columns":[
+                     {"searchable": false },
+                     {"searchable": false },
+                     {"searchable": false },
+                     {"searchable": false },
                      null,
                      null
                  ],
